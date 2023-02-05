@@ -1195,7 +1195,7 @@ the same energy as appliances used for short time periods at high wattage (power
              
             #st.markdown("**Educational qualification**")
              
-            demo['اعلى مؤهل دراسي لرب الأسرة']= demo['اعلى مؤهل دراسي لرب الأسرة'].replace({'ثانوي او مايعادل': 'secondary or equivalent', 'دبلوم': 'diploma', 'جامعي': 'collegiate', 'ماجستير': 'Master','دكتوراه':'PHD'})  
+            demo['اعلى مؤهل دراسي لرب الأسرة']= demo['اعلى مؤهل دراسي لرب الأسرة'].replace({'ثانوي او مايعادل': 'secondary or equivalent', 'دبلوم': 'diploma', 'جامعي': 'collegiate', 'ماجستير': 'Master','دكتوراه':'PHD', 'متوسط':'Others','ابتدائي':'Others','الداخليه':'Others','ثانوي':'Others','لا يوجد مؤهل دراسي':'Others','امي':'Others','متوسطه':'Others','متوفي':'Others','الابتدائي':'Others','معلم':'Others'})  
             # demo['اعلى مؤهل دراسي لرب الأسرة']=demo['اعلى مؤهل دراسي لرب الأسرة'].map(lambda x: translator.translate(x, dest="en").text)
              
             Education=demo['اعلى مؤهل دراسي لرب الأسرة']
